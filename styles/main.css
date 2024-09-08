@@ -3,6 +3,7 @@
     display: flex;
     background-color:  rgb(20,20,20);
     border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
     flex-direction: row;
 }
 
@@ -10,6 +11,7 @@
     display: flex;
     flex: 3;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
     flex-direction: column;
     justify-content:center;
     align-items: flex-start;
@@ -158,3 +160,6 @@
 .end-text{
     color: gray;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
