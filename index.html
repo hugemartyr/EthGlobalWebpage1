@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        CGS Metaverse
+    </title>
+    <link rel="icon" href="resources/logo.webp">
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/playlists.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+            <a href="#footer">
+                <div class="nav-elements">Contact US</div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="intro-section" class="intro-section">
+            <div class="intro-details">
+                <h2 style="color: #38b6ff;">Welcome to CGS Metaverse </h2>
+                <p>Welcome to the next era of gaming! Our blockchain-based ecosystem empowers you to own, trade, and enhance your in-game assets with complete freedom. Experience a world where every achievement holds real value, and a universal token seamlessly integrates across all games, unlocking endless possibilities in your gaming journey.your progress carries over wherever you go. </p>
+                <br>
+                <p style="margin-bottom: 15px;">Explore our curated playlists and find your next obsession!</p>
+                <a href="#featured-playlists" class="intro-featured-playlists">
+                    Featured Games
+                </a>
+            </div>
+            <div id="lottie-animation" style="width: 400px; height: 400px;"></div>
+
+            <img src="resources/logo.webp" class="intro-logo" alt="intro-logo">
+        </div>
+
+        <div id="featured-playlists" class="playlist-section">
+            <div>
+                <h2 style="color: #38b6ff;">Featured Games</h2>
+            </div>
+            <br>
+            <div class="playlists-grid">
+                <div class="playlist-box">
+                    <div class="playlist-icon">
+                        <div class="playlist-count">60</div>
+                        <img class="playlist-image" src="resources/playlist/phonk.jpeg" alt="">
+                    </div>
+                    <div class="playlist-description">
+                        <p>Space Surfurs</p>
+                        <p>the beat of your drift</p>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="playlist-box">
+                    <div class="playlist-icon">
+                        <div class="playlist-count">30</div>
+                        <img class="playlist-image" src="resources/playlist/rap.jpeg" alt="">
+                    </div>
+                    <div class="playlist-description">
+                        <p>Open World Speed Racing</p>
+                        <p>Race Against Time</p>
+                        <p>2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-animation'), // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'resources/anim.json' // the path to the animation json
+        });
+    </script>
+
+</body>
+
+
+</html>

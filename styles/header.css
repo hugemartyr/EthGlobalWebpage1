@@ -1,0 +1,36 @@
+.navigation-bar{
+    background-color: rgb(20,20,20);
+    display: flex;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    height: 72px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    z-index: 1;
+    border-style: solid;
+    border-color: #0062ff;
+    border-width: 1px;
+}
+
+.nav-elements{
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #38b6ff;
+    padding: 9px;
+    transition: .15s;
+}
+
+.nav-elements:hover{
+    padding: 20px;
+    background-color: #0062ff;
+    font-size: 20px;
+}
+
+.logo{
+    width: 55px;
+}
